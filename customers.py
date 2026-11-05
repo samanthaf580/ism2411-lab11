@@ -94,3 +94,14 @@ for customer in customers:
     print(f"{customer['name']}: {tier} - Discount: ${discount_amount:.2f}")
 
 
+# Exercise 7
+
+catalog = {
+    "widget A": {"price": 9.99, "stock": 150}, 
+    "Gadget C": {"price": 49.99, "stock": 8}
+}
+
+for product, details in catalog.items():
+    if details["stock"] < 20:
+        print(f"LOW STOCK: {product} - Only {details['stock']} left!")
+
