@@ -14,3 +14,26 @@ print(customer["ytd_spend"])
 
 print(customer)
 
+
+# Exercise 2
+
+customer["phone"] = "7274521560"
+
+print(customer)
+
+customer["tier"] = "Platinum"
+
+print(customer)
+
+del customer["email"]
+
+print(customer)
+
+# Exercise 3
+
+print(customer.get("email", "no email on file"))
+
+print(customer["email"])
+
+# Exercise 4
+
