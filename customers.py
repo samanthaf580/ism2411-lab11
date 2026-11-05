@@ -33,7 +33,18 @@ print(customer)
 
 print(customer.get("email", "no email on file"))
 
-print(customer["email"])
+# print(customer["email"])
 
 # Exercise 4
+
+for key, value in customer.items():
+    print(f"{key}: {value}")
+
+for key in customer:
+    print(key)
+
+
+# .items returns both the key and the value, but without it, python only returns the keys.
+
+#Exercise 5
 
