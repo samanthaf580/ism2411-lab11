@@ -1,3 +1,14 @@
+# Reflection: 
+
+# 1. In a real situation, I would use .get() to safely access optional customer information when a dictionary key might be missing. I would use brackets when accessing a customers ID number in a financial record to process a transaction. My rule of thumb for deciding is to use .get() when the key may be missing and brackets when the key is required.
+# 2. Exercise 8 reminds me of SUMIF functions, which total data by category. Using python is more useful for bigger datasets because it can automate repetitive calculations and handle more complex data without manually constantly updating spreadsheets.
+
+
+
+
+
+
+# 
 # Exercise 1
 
 customer = {
